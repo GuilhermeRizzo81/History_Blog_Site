@@ -1,0 +1,89 @@
+body {
+    background-color: #e2e2e8;
+}
+
+form {
+    width: 60%;
+    margin: 100px auto 100px auto;
+    text-align: justify;
+    background-color: #FFF;
+    border-radius: 1.5%;
+}
+
+.form-container {
+    padding: 40px;
+}
+
+.form-header {
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #a0a0a0;
+}
+
+.header-subtitle {
+    margin-top: 20px;
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.input-container {
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+
+}
+
+.input-container input {
+    margin-top: 7px;
+    display: block;
+    border: 0;
+    border-bottom: 1px solid #a0a0a0;
+    width: 400px;
+    height: 30px;
+    transition: .25s;
+}
+
+.input-container input:hover {
+    border-bottom: 1px solid #000;
+} 
+
+.input-container input:focus {
+    border: 1px solid #000;
+}
+
+.password-specification {
+    font-size: 12px;
+    font-style: italic;
+    margin: 5px 0px;
+}
+
+.opcional-container {
+    font-size: 14px;
+}
+
+.sign-up-container {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.submit-btn {
+    display: block;
+    margin-top: 50px;
+    border: 1px solid transparent;
+    background-color: #000;
+    color: #FFF;
+    letter-spacing: 0.1em;
+    height: 40px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.submit-btn:hover {
+    border: 1px solid transparent;
+    border-color: #000;
+    background-color: #FFF;
+    color: #000;
+}

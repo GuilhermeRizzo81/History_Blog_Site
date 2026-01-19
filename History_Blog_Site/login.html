@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/fa9ea0e2f3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/reset.css">
+    <link rel="stylesheet" type="text/css" href="CSS/main.css">
+    <link rel="stylesheet" type="text/css" href="CSS/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <title>Sign your Herodote account</title>
+</head>
+<body>
+    <form>
+        <div class="form-container">
+            
+            <div class="form-header">
+                <div class="site-icon-container">
+                    <h1>Herodote</h1>
+                </div>
+                <p class="header-subtitle">sign in to continue</p>
+            </div>
+            <div class="form-body">
+                <div class="input-container">
+                    <label for="name">
+                        Choose a name:<span class="required-field">*</span>
+                    </label>
+                    <input type="text" name="name" required minlength="3" maxlength="50" class="block">
+                </div>
+
+                <div class="input-container">
+                    <label for="email">
+                        Enter email adress:<span class="required-field">*</span>
+                    </label>
+                    <input type="email" name="email" required maxlength="50" class="block">
+                </div>
+
+                <div class="input-container">
+                    <label for="password">
+                        Enter password:<span class="required-field">*</span>
+                    </label>
+                    <p class="password-specification">(Up to 8 characters)</p>
+                    <input type="password" name="password" required minlength="8" maxlength="50" class="block">
+                </div>
+
+                <div class="opcional-container">
+                    <input type="checkbox"> 
+                    <label>Receive invitations for upcoming events</label>
+                </div>
+
+                <div class="sign-up-container">
+                    <p>
+                        When creating a account, you agree with our <a class="link-style">terms of service</a> 
+                        and <a class="link-style">policy privacy</a>.
+
+                        <input type="submit" class="submit-btn" value="sign up">
+                    </p>
+                </div>
+
+                
+
+            </div>
+        </div>
+    </form>
+</body>
+</html>
